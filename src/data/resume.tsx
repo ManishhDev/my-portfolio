@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "B.Tech CSE student with a passion for ML, MERN, and open-source. Turning ideas into code and contributing to the tech community.",
   summary:
-    "I'm a sophomore at [BVCOE, Delhi](/#education), pursuing B.Tech in CSE with a focus on ML, web development, and AI. Currently contributing to GirlScript Summer of Code 2024 and exploring AI/ML with Intel oneAPI Student Club. Proficient in MERN stack and Java DSA, I'm also part of DASBVP's Design team, blending creativity with tech. Armed with Google Cloud and GenAI certifications, I'm always eager to learn and collaborate on innovative projects. Let's connect and create something amazing in the world of technology!",
+    "As a student of Computer Science Engineering in [Bharati Vidyapeeth’s College of Engineering](/#education), I am driven by a passion to push the boundaries of technology. My focus is on AI, machine learning and data science, where I’m trying to create innovative solutions. I am proficient in MERN stack for web development and have a strong foundation in C and Java. Open-source collaborations and hackathons enhance my creativity, allowing me to turn ideas into amazing projects. I believe in the power of technology to shape a better future and am always eager to connect with fellow innovators for an exciting collaboration. Let’s explore how we can use tech to make a difference! [See my full resume here](#)",
   avatarUrl: "/pf.png",
   skills: [
     "React",
@@ -120,20 +120,18 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
+      title: "My portfolio site",
       href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "July 2024",
       active: true,
       description:
         "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React.js",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
+        "Vercel",
         "Magic UI",
       ],
       links: [
@@ -142,37 +140,33 @@ export const DATA = {
           href: "https://chatcollect.com",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/MohitGoyal09/my-portfolio",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "",
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Modern Landing page",
+      href: "https://github.com/MohitGoyal09/3D",
+      dates: "September 2023",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Designed and developed a modern 3D landing page using Shery.js .",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "html",
+        "css",
+        "js",
+        "Shery.js",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/MohitGoyal09/3D",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -180,22 +174,15 @@ export const DATA = {
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "llm.report",
+      title: "Password Generator",
       href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      dates: "October 2023",
       active: true,
       description:
         "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React.js",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
@@ -248,7 +235,7 @@ export const DATA = {
       dates: "April 18th - 19th, 2024",
       location: "New Delhi, India",
       description:
-        "Developed a resecue disaster coordination web app also known as Sahayak.",
+        "Developed Sahayak , a rescue disaster coordination web application.",
       image:
         "/206.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -259,7 +246,7 @@ export const DATA = {
       dates: "April 22th - 23th, 2024",
       location: "New Delhi, India",
       description:
-        "Developed a web application to connect ",
+        "Developed Nayanari, a web application to connect rural women with lawyers and provide legal education. Built using HTML, CSS, and JavaScript, with an intuitive interface designed in Figma. Integrated a Botpress-powered chatbot for immediate assistance and legal guidance. This project addresses the critical need for legal support among underserved communities through accessible technology. Nayanari showcases the potential of web development to create impactful social solutions. ",
       image:
         "/wie.jpg",
       win : "First place",

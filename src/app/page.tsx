@@ -120,12 +120,10 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  Explore My Innovative Solutions
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  From socially impactful web apps to innovative hackathon solutions, here are some of my most notable projects.
                 </p>
               </div>
             </div>
@@ -164,7 +162,7 @@ export default function Page() {
                   I love bringing ideas to life
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  As a sophomore at BVCOE, I have already dived into the exhilarating world of hackathons, participating in {" "}
+                  As a sophomore at BVCOE, I&apos;ve already dived into the exhilarating world of hackathons, participating in {" "}
                   {DATA.hackathons.length}+ hackathons.  experiencing intense 24-48 hour coding sprints that have sharpened my skills and ignited my passion for collaborative tech innovation.
                 </p>
               </div>
@@ -183,8 +181,7 @@ export default function Page() {
                     location={project.location}
                     dates={project.dates}
                     image={project.image}
-                    links={project.links}
-                  />
+                    links={project.links} win={""}                  />
                 </BlurFade>
               ))}
             </ul>
