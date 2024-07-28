@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "B.Tech CSE student with a passion for ML, MERN, and open-source. Turning ideas into code and contributing to the tech community.",
   summary:
-    "As a student of Computer Science Engineering in [Bharati Vidyapeeth’s College of Engineering](/#education), I am driven by a passion to push the boundaries of technology. My focus is on AI, machine learning and data science, where I’m trying to create innovative solutions. I am proficient in MERN stack for web development and have a strong foundation in C and Java. Open-source collaborations and hackathons enhance my creativity, allowing me to turn ideas into amazing projects. I believe in the power of technology to shape a better future and am always eager to connect with fellow innovators for an exciting collaboration. Let’s explore how we can use tech to make a difference! [See my full resume here](#)",
+    "As a student of Computer Science Engineering in [Bharati Vidyapeeth’s College of Engineering](/#education), I am driven by a passion to push the boundaries of technology. My focus is on AI, machine learning and data science, where I’m trying to create innovative solutions. I am proficient in MERN stack for web development and have a strong foundation in C and Java. Open-source collaborations and hackathons enhance my creativity, allowing me to turn ideas into amazing projects. I believe in the power of technology to shape a better future and am always eager to connect with fellow innovators for an exciting collaboration. Let’s explore how we can use tech to make a difference! [See my full resume here](https://drive.google.com/file/d/1IKckfZkoy2fl3923VDVRf-8hlu-9UmhW/view?usp=sharing)",
   avatarUrl: "/pf.png",
   skills: [
     "React",
@@ -120,113 +120,112 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "My portfolio site",
-      href: "https://chatcollect.com",
+      title: "Almost-reddit",
+      href: "https://github.com/MohitGoyal09/reddit",
       dates: "July 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed a Reddit-inspired web application using React, Tailwind CSS, and Appwrite. This project showcases core functionalities including user authentication, post creation, and commenting. Leveraged React for a dynamic frontend, Tailwind for responsive design, and Appwrite for backend services, demonstrating full-stack development skills in a modern web ecosystem.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "React.js",
-        "TailwindCSS",
-        "Vercel",
-        "Magic UI",
+        "React js",
+        "Tailwind Css",
+        "git",
+        "Appwrite",
+        "yarn",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://chatcollect.com",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
           type: "Source",
-          href: "https://github.com/MohitGoyal09/my-portfolio",
+          href: "https://github.com/MohitGoyal09/reddit",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/redd.jpg",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
     {
-      title: "Modern Landing page",
-      href: "https://github.com/MohitGoyal09/3D",
-      dates: "September 2023",
+      title: "Car Prediction Model",
+      href: "https://github.com/MohitGoyal09/car_prediciton_model",
+      dates: "July 2024",
       active: true,
       description:
-        "Designed and developed a modern 3D landing page using Shery.js .",
+        "Developed a predictive model to estimate car prices using linear regression, leveraging historical data to provide accurate cost forecasts. Implemented the backend with Flask to handle data processing and model inference, and created a user-friendly interface using HTML, CSS, and JavaScript. This project demonstrates my ability to integrate machine learning with web technologies to deliver practical and interactive solutions.",
       technologies: [
         "html",
         "css",
         "js",
-        "Shery.js",
+        "Python",
+        "PyCharm",
+         "Flask",
+         "Jupiter Notebook",
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/MohitGoyal09/3D",
+          href: "https://github.com/MohitGoyal09/car_prediciton_model",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/demo.png",
+      video: "",
     },
     {
       title: "Password Generator",
-      href: "https://llm.report",
+      href: "https://github.com/MohitGoyal09/PasswordGenerator",
       dates: "October 2023",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed a React-based password generator with a sleek Tailwind CSS interface. Users can create custom, strong passwords with adjustable length and character types. Features include strength indicators and one-click copying, demonstrating proficiency in modern front-end development and UI design.",
       technologies: [
         "React.js",
         "TailwindCSS",
+        "Git",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://llm.report",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/MohitGoyal09/PasswordGenerator",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/pass.jpg",
+      // video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "News Web Application",
+      href: "https://github.com/MohitGoyal09/News-web-app",
+      dates: "September 2023",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Built a responsive news application that fetches and displays real-time articles using JavaScript and the Fetch API. Features include dynamic content updates, search functionality, and category filtering, showcasing skills in API integration and front-end development.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "js",
+        "Git",
+        "Html",
+        "Css",
+        
       ],
       links: [
         {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/MohitGoyal09/News-web-app",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/news.jpg",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
   hackathons: [
@@ -239,6 +238,7 @@ export const DATA = {
       image:
         "/206.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      win : "seocnd",
       links: [],
     },
     {
@@ -246,7 +246,7 @@ export const DATA = {
       dates: "April 22th - 23th, 2024",
       location: "New Delhi, India",
       description:
-        "Developed Nayanari, a web application to connect rural women with lawyers and provide legal education. Built using HTML, CSS, and JavaScript, with an intuitive interface designed in Figma. Integrated a Botpress-powered chatbot for immediate assistance and legal guidance. This project addresses the critical need for legal support among underserved communities through accessible technology. Nayanari showcases the potential of web development to create impactful social solutions. ",
+        "Developed SheSkati, a web application to connect rural women with lawyers and provide legal education. Built using HTML, CSS, and JavaScript, with an intuitive interface designed in Figma. Integrated a Botpress-powered chatbot for immediate assistance and legal guidance. This project addresses the critical need for legal support among underserved communities through accessible technology. SheSkati showcases the potential of web development to create impactful social solutions. ",
       image:
         "/wie.jpg",
       win : "First place",
@@ -273,6 +273,7 @@ export const DATA = {
       icon: "public",
       image:
         "/hack.jpg",
+      win : "lol",
       links: [],
     },
     // {
