@@ -69,18 +69,7 @@ export const DATA = {
   },
 
   work: [
-    {
-      company: "Headstarter AI",
-      badges: [],
-      href: "https://headstarter.co/",
-      location: "Remote",
-      title: "Incoming Software Engineering Fellow ",
-      logoUrl: "/ai.jpeg",
-      start: "July 2024",
-      end: "Sept 2024",
-      description:
-        "As a participant in the Headstarter AI 7-week Software Development Engineer fellowship, I gained hands-on experience in AI-related projects, attended offline events, and expanded my professional network. This intensive program enhanced my skills in machine learning and data analysis while providing valuable insights into the latest trends in artificial intelligence. The fellowship has significantly contributed to my growth as a software developer specializing in AI.",
-    },
+    
     
     {
       company: "GirlScript Summer of Code",
@@ -113,7 +102,7 @@ export const DATA = {
       href: "https://www.sumermaljainpublicschool.edu.in/",
       degree: "High School Diploma",
       logoUrl: "/school.jpeg",
-      start: "2021",
+      start: "2019",
       end: "2023",
     },
     
