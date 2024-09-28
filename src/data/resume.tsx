@@ -16,6 +16,7 @@ export const DATA = {
     "React",
     "Node.js",
     "Python",
+    "Typescript",
     "Machine Learning",
     "Java",
     "C++",
@@ -23,7 +24,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://medium.com/@mohit098", icon: NotebookIcon, label: "Blog" },
     { href: "/#projects", icon: CodeIcon, label: "Projects" },
     // { href: "#", icon: PencilLine, label: "Notes" },
   ],
@@ -47,16 +48,16 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/Mohitgoyal098",
+        url: "https://x.com/ByteMohit",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://www.youtube.com/@mohitgoyal1326",
         icon: Icons.youtube,
-        navbar: false,
+        navbar: true,
       },
       email: {
         name: "Send Email",
