@@ -4,9 +4,10 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 export const DATA = {
   name: "Mohit Goyal",
   initials: "MG",
-  url: "https://dillion.io",
+  url: "https://www.mohitg.xyz",
   location: "New Delhi , India",
-  locationLink: "https://www.google.com/maps/place/New+Delhi,+Delhi/@28.5272523,77.0438272,11z/data=!3m1!4b1!4m6!3m5!1s0x390cfd5b347eb62d:0x52c2b7494e204dce!8m2!3d28.6139298!4d77.2088282!16zL20vMGRsdjA?entry=ttu",
+  locationLink:
+    "https://www.google.com/maps/place/New+Delhi,+Delhi/@28.5272523,77.0438272,11z/data=!3m1!4b1!4m6!3m5!1s0x390cfd5b347eb62d:0x52c2b7494e204dce!8m2!3d28.6139298!4d77.2088282!16zL20vMGRsdjA?entry=ttu",
   description:
     "B.Tech CSE student with a passion for ML, MERN, and open-source. Turning ideas into code and contributing to the tech community.",
   summary:
@@ -21,6 +22,8 @@ export const DATA = {
     "Java",
     "C++",
     "Postman",
+    "Pytorch",
+    "Next js",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -70,8 +73,6 @@ export const DATA = {
   },
 
   work: [
-    
-    
     {
       company: "GirlScript Summer of Code",
       href: "https://atomic.finance",
@@ -84,16 +85,13 @@ export const DATA = {
       description:
         "Contributed to an open-source task management application, implementing task filtering and sorting using React hooks and context API. Improved cross-browser compatibility and refactored Express.js routes for RESTful design. Enhanced data integrity by adding Joi input validation on both client and server sides. Updated API and component documentation to facilitate easier onboarding for new contributors. Actively participated in code reviews, improving code quality through collaboration.",
     },
-    
-    
-    
-    
   ],
   education: [
     {
       school: "Bharati Vidyapeeth's College of Engineering",
       href: "https://bvcoend.ac.in/",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+      degree:
+        "Bachelor of Technology - BTech, Computer Science and Engineering",
       logoUrl: "/college_logo.jpeg",
       start: "2023",
       end: "2027",
@@ -106,22 +104,23 @@ export const DATA = {
       start: "2019",
       end: "2023",
     },
-    
   ],
   projects: [
     {
-      title: "Almost-reddit",
-      href: "https://github.com/MohitGoyal09/reddit",
-      dates: "July 2024",
+      title: "SmartiCalc",
+      href: "https://github.com/MohitGoyal09/SmartiCalc",
+      dates: "September 2024",
       active: true,
       description:
-        "Developed a Reddit-inspired web application using React, Tailwind CSS, and Appwrite. This project showcases core functionalities including user authentication, post creation, and commenting. Leveraged React for a dynamic frontend, Tailwind for responsive design, and Appwrite for backend services, demonstrating full-stack development skills in a modern web ecosystem.",
+        "Developed a sleek, intuitive calculator inspired by the Apple Calculator, using React and TypeScript. Equipped with advanced problem-solving features, it showcases skills in modern UI design and API integration.",
       technologies: [
         "React js",
+        "Typescript",
         "Tailwind Css",
-        "git",
-        "Appwrite",
-        "yarn",
+        "Python",
+        "ShadCn",
+        "Mantine",
+        "Google’s Gemini API",
       ],
       links: [
         // {
@@ -131,50 +130,48 @@ export const DATA = {
         // },
         {
           type: "Source",
-          href: "https://github.com/MohitGoyal09/reddit",
+          href: "https://github.com/MohitGoyal09/SmartiCalc",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/redd.jpg",
-      video:
-        "",
-    },
-    {
-      title: "Car Prediction Model",
-      href: "https://github.com/MohitGoyal09/car_prediciton_model",
-      dates: "July 2024",
-      active: true,
-      description:
-        "Developed a predictive model to estimate car prices using linear regression, leveraging historical data to provide accurate cost forecasts. Implemented the backend with Flask to handle data processing and model inference, and created a user-friendly interface using HTML, CSS, and JavaScript. This project demonstrates my ability to integrate machine learning with web technologies to deliver practical and interactive solutions.",
-      technologies: [
-        "html",
-        "css",
-        "js",
-        "Python",
-        "PyCharm",
-         "Flask",
-         "Jupiter Notebook",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/MohitGoyal09/car_prediciton_model",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/demo.png",
+      image: "/cal.jpg",
       video: "",
     },
     {
-      title: "Password Generator",
-      href: "https://github.com/MohitGoyal09/PasswordGenerator",
-      dates: "October 2023",
+      title: "Music Acadmey",
+      href: "https://github.com/MohitGoyal09/musicacademy",
+      dates: "November 2024",
       active: true,
       description:
-        "Developed a React-based password generator with a sleek Tailwind CSS interface. Users can create custom, strong passwords with adjustable length and character types. Features include strength indicators and one-click copying, demonstrating proficiency in modern front-end development and UI design.",
+        "Built a responsive and visually appealing landing page for a music institution using Next.js and Acerenity UI. This project demonstrates expertise in creating clean, modern designs with seamless navigation and optimized performance.",
+      technologies: ["Next js", "Aceternity ui"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/MohitGoyal09/musicacademy",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://musicacademy-iota.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/music.jpg",
+      video: "",
+    },
+    {
+      title: "TextractAI",
+      href: "https://github.com/MohitGoyal09/TextractAI",
+      dates: "September 2024",
+      active: true,
+      description:
+        "Created an AI-driven tool for seamless text extraction and summarization from PDF files, using React.js and Google’s Gemini API. This project highlights expertise in advanced API integrations, React components, and intuitive UI design for improved user experience.",
       technologies: [
         "React.js",
         "TailwindCSS",
+        "ShadCn",
+        "Google’s Gemini API",
         "Git",
       ],
       links: [
@@ -185,35 +182,29 @@ export const DATA = {
         // },
         {
           type: "Source",
-          href: "https://github.com/MohitGoyal09/PasswordGenerator",
+          href: "https://github.com/MohitGoyal09/TextractAI",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/pass.jpg",
+      image: "/pdf.jpg",
       // video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
-      title: "News Web Application",
-      href: "https://github.com/MohitGoyal09/News-web-app",
-      dates: "September 2023",
+      title: "Food Big Vision Tansformer",
+      href: "https://github.com/MohitGoyal09/FoodVison-Big",
+      dates: "November 2024",
       active: true,
       description:
-        "Built a responsive news application that fetches and displays real-time articles using JavaScript and the Fetch API. Features include dynamic content updates, search functionality, and category filtering, showcasing skills in API integration and front-end development.",
-      technologies: [
-        "js",
-        "Git",
-        "Html",
-        "Css",
-        
-      ],
+        "Built a Vision Transformer (ViT) model to efficiently classify images using self-attention mechanisms. Implemented with PyTorch and fine-tuned on a curated dataset, achieving high accuracy. This project demonstrates proficiency in transformer-based architectures and advanced deep learning techniques for visual tasks.",
+      technologies: ["Pytorch", "Hugging Face", "Gardio"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/MohitGoyal09/News-web-app",
+          href: "https://github.com/MohitGoyal09/FoodVison-Big",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/news.jpg",
+      image: "/gradio.jpg",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
@@ -225,10 +216,9 @@ export const DATA = {
       location: "New Delhi, India",
       description:
         "Developed Sahayak , a rescue disaster coordination web application.",
-      image:
-        "/206.png",
+      image: "/206.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      win : "seocnd",
+      win: "seocnd",
       links: [],
     },
     {
@@ -237,9 +227,8 @@ export const DATA = {
       location: "New Delhi, India",
       description:
         "Developed SheSkati, a web application to connect rural women with lawyers and provide legal education. Built using HTML, CSS, and JavaScript, with an intuitive interface designed in Figma. Integrated a Botpress-powered chatbot for immediate assistance and legal guidance. This project addresses the critical need for legal support among underserved communities through accessible technology. SheSkati showcases the potential of web development to create impactful social solutions. ",
-      image:
-        "/wie.jpg",
-      win : "First place",
+      image: "/wie.jpg",
+      win: "First place",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
         {
@@ -261,9 +250,8 @@ export const DATA = {
       description:
         "Developed a Stock Prediction model used various Machine learning algorithims and used strealit for Ui.",
       icon: "public",
-      image:
-        "/hack.jpg",
-      win : "lol",
+      image: "/hack.jpg",
+      win: "lol",
       links: [],
     },
     // {
@@ -389,7 +377,7 @@ export const DATA = {
     //       icon: <Icons.github className="h-4 w-4" />,
     //       href: "https://github.com/nsagirlfriend/nsagirlfriend",
     //     },
-        
+
     //   ],
     // },
     // {
@@ -472,7 +460,7 @@ export const DATA = {
     //     },
     //   ],
     // },
-    
+
     // {
     //   title: "Waterloo Equithon",
     //   dates: "May 5th - 7th, 2017",
@@ -499,7 +487,7 @@ export const DATA = {
     //     },
     //   ],
     // },
-    
+
     // {
     //   title: "StartHacks I",
     //   dates: "March 4th - 5th, 2017",
@@ -545,7 +533,5 @@ export const DATA = {
     //     },
     //   ],
     // },
-    
-    
   ],
 } as const;

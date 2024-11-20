@@ -47,9 +47,11 @@ export function HackathonCard({
             {description}
           </span>
         )}
-        
-          
-        
+        {/* {win && (
+          <Badge className="px-4 py-1.5 text-xs font-medium text-white bg-green-500 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-200 ease-in-out">
+            {win}
+          </Badge>
+        )} */}
       </div>
       {links && links.length > 0 && (
         <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
