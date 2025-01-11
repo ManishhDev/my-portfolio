@@ -107,34 +107,35 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "SmartiCalc",
-      href: "https://github.com/MohitGoyal09/SmartiCalc",
-      dates: "September 2024",
+      title: "Artificial Guruji",
+      href: "https://lms-three-theta.vercel.app/",
+      dates: "January 2025",
       active: true,
       description:
-        "Developed a sleek, intuitive calculator inspired by the Apple Calculator, using React and TypeScript. Equipped with advanced problem-solving features, it showcases skills in modern UI design and API integration.",
+        "**Artificial Guruji** is an **AI-powered exam preparation platform** that uses advanced AI to generate **personalised study materials** and **customised study schedules**. It helps users to improve test scores, adapt to individual learning styles, and save preparation time. The platform has over 50,000 users and is used in over 100 universities.",
       technologies: [
+        "Next js",
         "React js",
         "Typescript",
         "Tailwind Css",
-        "Python",
+        "Inngest",
         "ShadCn",
-        "Mantine",
+        "MagicUI",
         "Google’s Gemini API",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://chatcollect.com",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://lms-three-theta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
-          href: "https://github.com/MohitGoyal09/SmartiCalc",
+          href: "https://github.com/MohitGoyal09/lms",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/cal.jpg",
+      image: "/lms.jpg",
       video: "",
     },
     {
@@ -161,32 +162,32 @@ export const DATA = {
       video: "",
     },
     {
-      title: "TextractAI",
-      href: "https://github.com/MohitGoyal09/TextractAI",
-      dates: "September 2024",
+      title: "GuardianReport",
+      href: "https://safe-report-omega.vercel.app/",
+      dates: "December 2024",
       active: true,
       description:
-        "Created an AI-driven tool for seamless text extraction and summarization from PDF files, using React.js and Google’s Gemini API. This project highlights expertise in advanced API integrations, React components, and intuitive UI design for improved user experience.",
+        "**GuardianReport** is a system for **secure and anonymous incident reporting** that uses **military-grade encryption** to protect the reporter's identity. It provides a **two-way anonymous communication channel** with law enforcement, and offers **real-time processing** of reports. The system has a 100% anonymity rate, has processed over 100,000 reports, and offers 24/7 support.",
       technologies: [
+        "Next.js",
         "React.js",
         "TailwindCSS",
         "ShadCn",
         "Google’s Gemini API",
-        "Git",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://llm.report",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://safe-report-omega.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
-          href: "https://github.com/MohitGoyal09/TextractAI",
+          href: "https://github.com/MohitGoyal09/GuardianReport",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/pdf.jpg",
+      image: "/report.jpg",
       // video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
