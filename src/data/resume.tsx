@@ -9,9 +9,9 @@ export const DATA = {
   locationLink:
     "https://www.google.com/maps/place/New+Delhi,+Delhi/@28.5272523,77.0438272,11z/data=!3m1!4b1!4m6!3m5!1s0x390cfd5b347eb62d:0x52c2b7494e204dce!8m2!3d28.6139298!4d77.2088282!16zL20vMGRsdjA?entry=ttu",
   description:
-    "B.Tech CSE student with a passion for ML, MERN, and open-source. Turning ideas into code and contributing to the tech community.",
+    "Coding dreams into reality with ML, MERN, and open-source magic.",
   summary:
-    "As a student of Computer Science Engineering in [Bharati Vidyapeeth’s College of Engineering](/#education), I am driven by a passion to push the boundaries of technology. My focus is on AI, machine learning and data science, where I’m trying to create innovative solutions. I am proficient in MERN stack for web development and have a strong foundation in C and Java. Open-source collaborations and hackathons enhance my creativity, allowing me to turn ideas into amazing projects. I believe in the power of technology to shape a better future and am always eager to connect with fellow innovators for an exciting collaboration. Let’s explore how we can use tech to make a difference! [See my full resume here](https://drive.google.com/file/d/1uVnOJP_woSQnmFYgiWoz6RNcjk9hDM-g/view?usp=sharing)",
+    "Driven by a passion to push the boundaries of technology, I specialize in AI, machine learning, and data science—crafting innovative solutions that make a real impact. Proficient in the MERN stack, C, and Java, I thrive on open-source collaborations and hackathons, turning creative ideas into breakthrough projects. I believe in the power of technology to shape a better future and am always eager to explore exciting collaborations. [See my full resume here](https://drive.google.com/file/d/1PJ9fEjJxAXDQcByG0nscwf_SelgeWKCy/view?usp=sharing)",
   avatarUrl: "/pf.png",
   skills: [
     "React",
@@ -95,14 +95,6 @@ export const DATA = {
       logoUrl: "/college_logo.jpeg",
       start: "2023",
       end: "2027",
-    },
-    {
-      school: "Sumermal Jain Public school ",
-      href: "https://www.sumermaljainpublicschool.edu.in/",
-      degree: "High School Diploma",
-      logoUrl: "/school.jpeg",
-      start: "2019",
-      end: "2023",
     },
   ],
   projects: [
